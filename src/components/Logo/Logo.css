@@ -1,0 +1,76 @@
+.logo-box{
+    height: 100%;
+    width: 500px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #445964;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 80px;
+}
+
+.logo-icon{
+    height: 100px;
+    width: 100px;
+    color: #F48226;
+}
+
+@media only screen and (max-width: 750px) {
+    .logo-box{
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .logo-box{
+        height: 100%;
+        width: 400px;
+        font-size: 33px;
+        margin-left: 10px;
+    }
+
+    .logo-icon{
+        height: 80px;
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .logo-box{
+        height: 100%;
+        width: 350px;
+        font-size: 28px;
+        margin-left: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    .logo-box{
+        height: 100%;
+        width: 280px;
+        font-size: 28px;
+        margin-left: 10px;
+    }
+
+    .logo-icon{
+        height: 80px;
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .logo-box{
+        height: 100%;
+        width: 200px;
+        font-size: 22px;
+        margin-left: 5px;
+    }
+
+    .logo-icon{
+        height: 65px;
+        width: 65px;
+    }
+}
