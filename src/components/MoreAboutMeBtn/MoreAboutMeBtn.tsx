@@ -4,8 +4,7 @@ import './MoreAboutMeBtn.css'
 import {ActiveViewContext} from "../../contexts/active-view-context";
 
 export const MoreAboutMeBtn = () => {
-    const {activeView, setActiveView} = useContext(ActiveViewContext)
-
+    const {setActiveView} = useContext(ActiveViewContext)
 
     const changeActiveView = (view: string) => {
         setActiveView(view)
