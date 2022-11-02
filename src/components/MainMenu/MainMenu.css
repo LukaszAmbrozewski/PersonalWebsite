@@ -6,30 +6,3 @@
     justify-content: space-between;
     margin-right: 40px;
 }
-
-.main-menu-btn{
-    text-decoration: none;
-    font-size: 1.3rem;
-    color: #445964;
-    font-weight: 500;
-    transition: 0.3s;
-    padding: 15px 15px 15px 15px;
-    cursor: pointer;
-}
-
-.main-menu-btn:hover{
-    transition: 0.3s;
-    color: #f48226;
-}
-
-.active{
-    color: #f48226;
-}
-
-.main-menu-lang-btn{
-    display: flex;
-    align-items: center;
-    width: 43px;
-    justify-content: space-between;
-    margin-left: 20px;
-}
