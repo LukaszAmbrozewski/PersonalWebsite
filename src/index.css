@@ -47,6 +47,9 @@ blockquote, q {
 
 body {
   margin: 0;
+  color: #445964;
+  background-color: #ffffff;
+  font-size: 15px;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
