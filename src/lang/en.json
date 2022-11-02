@@ -8,5 +8,8 @@
   "main-first-home-box-text": "Hello!",
   "main-second-home-box-text": "My name is Łukasz, I'm a programmer.",
   "main-third-home-box-text": "Programming is my passion.",
-  "main-about-me-home-box-btn": "More about me"
+  "main-about-me-home-box-btn": "More about me",
+  "contact-header": "Contact",
+  "contact-email": "lukaszambrozewski@gmail.com",
+  "contact-phone-number": "+48 733 894 571"
 }
