@@ -1,11 +1,14 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import {Icon} from '@iconify/react';
 import './TechnologiesBox.css';
+import {LanguageContext} from "../../contexts/language-context";
 
 export const TechnologiesBox = () => {
+    const {desc} = useContext(LanguageContext);
+
     return (
         <div className='technologies-box'>
-            <h1 className='technologies-header'>Technologie</h1>
+            <h1 className='technologies-header'>{desc["technologies-header"]}</h1>
             <div className='technologies-list-box'>
                 <div className='technologies-list'>
                     <p className='technologies-text'>
