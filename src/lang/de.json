@@ -12,5 +12,8 @@
   "contact-header": "Kontakt",
   "contact-email": "lukaszambrozewski@gmail.com",
   "contact-phone-number": "+48 733 894 571",
-  "technologies-header": "Technologien"
+  "technologies-header": "Technologien",
+  "portfolio-main-header": "Meine Projekte",
+  "portfolio-first-project-header": "InvoiceApp",
+  "portfolio-first-project-description": "Es ist eine Full-Stack-Anwendung, die die Verwaltung von Rechnungen erleichtert. Es besteht aus einem Frontend-, Backend-Teil und einer Datenbank. Ich habe persönlich den gesamten Prozess der Anwendungsentwicklung durchgeführt, von der Gestaltung der Ansichten, aller Funktionalitäten, Datenbanken bis zur vollständigen Implementierung des Projekts. Die Anwendung wurde im Mobile-First-Ansatz erstellt und ist vollständig responsiv."
 }

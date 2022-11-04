@@ -12,5 +12,8 @@
   "contact-header": "Kontakt",
   "contact-email": "lukaszambrozewski@gmail.com",
   "contact-phone-number": "+48 733 894 571",
-  "technologies-header": "Technologie"
+  "technologies-header": "Technologie",
+  "portfolio-main-header": "Moje projekty",
+  "portfolio-first-project-header": "InvoiceApp",
+  "portfolio-first-project-description": "To fullstackowa aplikacja ułatwiająca zarządzanie fakutrami. Składa się z części frontendowej backendowej oraz bazy danych. Osobiście wykonałem cały proces tworzenia aplikacji, od zaprojektowania widoków, wszystkich funkcjonalności, bazy danych aż do pełnej realizacji projektu. Aplikacja została wykonana w podejściu mobile first i jest w pełni responsywna."
 }
