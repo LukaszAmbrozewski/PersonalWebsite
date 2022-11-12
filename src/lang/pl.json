@@ -1,0 +1,19 @@
+{
+  "main-home-btn": "home",
+  "main-about-me-btn": "o mnie",
+  "main-portfolio-btn": "portfolio",
+  "main-cooperation-btn": "współpraca",
+  "main-technologies-btn": "technologie",
+  "main-contact-btn": "kontakt",
+  "main-first-home-box-text": "Cześć!",
+  "main-second-home-box-text": "Nazywam się Łukasz, jestem programistą.",
+  "main-third-home-box-text": "Programowanie to moja pasja.",
+  "main-about-me-home-box-btn": "Więcej o mnie",
+  "contact-header": "Kontakt",
+  "contact-email": "lukaszambrozewski@gmail.com",
+  "contact-phone-number": "+48 733 894 571",
+  "technologies-header": "Technologie",
+  "portfolio-main-header": "Moje projekty",
+  "portfolio-first-project-header": "InvoiceApp",
+  "portfolio-first-project-description": "To fullstackowa aplikacja ułatwiająca zarządzanie fakutrami. Składa się z części frontendowej backendowej oraz bazy danych. Osobiście wykonałem cały proces tworzenia aplikacji, od zaprojektowania widoków, wszystkich funkcjonalności, bazy danych aż do pełnej realizacji projektu. Aplikacja została wykonana w podejściu mobile first i jest w pełni responsywna."
+}

@@ -1,13 +1,13 @@
 import React from 'react';
 import {Header} from "../../components/Header/Header";
-import {HomeBox} from "../../components/HomeBox/HomeBox";
 import {Footer} from "../../components/Footer/Footer";
+import {TechnologiesBox} from "../../components/TechnologiesBox/TechnologiesBox";
 
-export const Home = () => {
-    return(
+export const Technologies = () => {
+    return (
         <div>
             <Header/>
-            <HomeBox/>
+            <TechnologiesBox/>
             <Footer/>
         </div>
     )

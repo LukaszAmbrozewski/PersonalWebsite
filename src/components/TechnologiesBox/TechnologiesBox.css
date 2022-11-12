@@ -1,0 +1,100 @@
+.technologies-header{
+    font-size: 4.2rem;
+    margin-bottom: 40px;
+    font-weight: 550;
+}
+
+.technologies-box{
+    height: calc(100vh - 245px);
+    width: 100vw;
+    font-weight: 550;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.technologies-icon{
+    width: 70px;
+    height: 70px;
+    margin-right: 40px;
+}
+
+.technologies-list-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.technologies-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.technologies-text{
+    display: flex;
+    font-size: 2.8rem;
+    margin: 20px 0 20px;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    .technologies-box{
+        transform: scale(0.9);
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .technologies-box{
+        transform: scale(0.8);
+    }
+}
+
+@media only screen and (max-width: 900px) and (orientation: portrait) {
+    .technologies-list-box{
+        flex-direction: column;
+    }
+
+    .technologies-box{
+        flex-direction: column;
+        height: 1050px;
+    }
+}
+
+@media only screen and (max-width: 400px) and (orientation: portrait) {
+    .technologies-box{
+        transform: scale(0.7);
+        height: 950px;
+    }
+}
+
+@media only screen and (max-width: 350px) and (orientation: portrait) {
+    .technologies-box{
+        transform: scale(0.6);
+        height: 750px;
+    }
+}
+
+@media only screen and (max-height: 900px) and (orientation: landscape) {
+    .technologies-box{
+        flex-direction: column;
+        height: 600px;
+    }
+}
+
+@media only screen and (max-height: 350px) and (orientation: landscape) and (max-width: 750px) {
+    .technologies-box{
+        transform: scale(0.6);
+        width: 100%;
+        flex-direction: column;
+        height: 400px;
+    }
+
+    .technologies-icon{
+        margin-left: 80px;
+    }
+}
+/*marginesy ??*/

@@ -1,0 +1,19 @@
+{
+  "main-home-btn": "home",
+  "main-about-me-btn": "about me",
+  "main-portfolio-btn": "portfolio",
+  "main-cooperation-btn": "cooperation",
+  "main-technologies-btn": "technologies",
+  "main-contact-btn": "contact",
+  "main-first-home-box-text": "Hello!",
+  "main-second-home-box-text": "My name is Łukasz, I'm a programmer.",
+  "main-third-home-box-text": "Programming is my passion.",
+  "main-about-me-home-box-btn": "More about me",
+  "contact-header": "Contact",
+  "contact-email": "lukaszambrozewski@gmail.com",
+  "contact-phone-number": "+48 733 894 571",
+  "technologies-header": "Technologies",
+  "portfolio-main-header": "My projects",
+  "portfolio-first-project-header": "InvoiceApp",
+  "portfolio-first-project-description": "It is a full-stack application that facilitates the management of invoices. It consists of a front-end, back-end part and a database. I personally carried out the entire application development process, from designing views, all functionalities, databases to the full implementation of the project. The application was made in the mobile first approach and is fully responsive."
+}
