@@ -1,28 +1,44 @@
 import React, {useContext, useEffect, useState} from 'react';
-import './HomeBox.css';
 import {MoreAboutMeBtn} from "../MoreAboutMeBtn/MoreAboutMeBtn";
 import {LanguageContext} from "../../contexts/language-context";
-
-const backgroundImages = ['images/home1.jpg', 'images/home2.jpg', 'images/home3.jpg', 'images/home4.jpg']
+import '../ComponentsStyles.css';
+import './HomeBox.css';
+import BackgroundsImageGallery from "../BackgroundsImageGallery/BackgroundsImageGallery";
 
 export const HomeBox = () => {
-    const [backgroundImage, setBackgroundImage] = useState<number>(0);
+    // const [currentBackgroundImage, setCurrentBackgroundImage] = useState<number>(0);
+    // const [backgroundImages, setBackgroundImages] = useState<string[]>(['images/home1.jpg', 'images/home2.jpg', 'images/home3.jpg', 'images/home4.jpg']);
     const {desc} = useContext(LanguageContext);
-
-    useEffect(() => {
-        setTimeout(() => {
-            (backgroundImage === 3) ? setBackgroundImage(0) : setBackgroundImage(backgroundImage + 1);
-        }, 6000)
-    }, [backgroundImage]);
+    //
+    // useEffect(() => {
+    //     const urls = [...backgroundImages];
+    //     urls.forEach((image) => {
+    //         const newImage = new Image();
+    //         newImage.src = image;
+    //     });
+    //     setBackgroundImages(urls);
+    // }, [])
+    //
+    // useEffect(() => {
+    //     setTimeout(() => {
+    //         (currentBackgroundImage === 3) ? setCurrentBackgroundImage(0) : setCurrentBackgroundImage(currentBackgroundImage + 1);
+    //     }, 6000)
+    // }, [currentBackgroundImage]);
 
     return (
-        <div className='home-box' style={{backgroundImage: `url(${backgroundImages[backgroundImage]})`}}>
-            <div className='home-text-box'>
-                <p className='home-box-small-text'>{desc["main-first-home-box-text"]}</p>
-                <p className='home-box-text'>{desc["main-second-home-box-text"]}</p>
-                <p className='home-box-small-text'>{desc["main-third-home-box-text"]}</p>
-                <MoreAboutMeBtn/>
+        <>
+            <div
+                className='home-box'
+                // style={{backgroundImage: `url(${backgroundImages[currentBackgroundImage]})`}}
+            >
+                <BackgroundsImageGallery/>
+                <div className='home-text-box'>
+                    <p className='home-box-small-text'>{desc["main-first-home-box-text"]}</p>
+                    <p className='home-box-text'>{desc["main-second-home-box-text"]}</p>
+                    <p className='home-box-small-text'>{desc["main-third-home-box-text"]}</p>
+                    <MoreAboutMeBtn/>
+                </div>
             </div>
-        </div>
+        </>
     )
 }

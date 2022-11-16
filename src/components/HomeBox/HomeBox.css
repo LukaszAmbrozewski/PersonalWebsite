@@ -6,7 +6,7 @@
     color: #ffffff;
     display: flex;
     align-items: center;
-    transition: 3s;
+    /*transition: 3s;*/
 }
 
 .home-text-box{
@@ -17,6 +17,7 @@
     flex-direction: column;
     justify-content: space-around;
     margin-left: 200px;
+    z-index: 1;
 }
 
 .home-box-small-text{
@@ -177,3 +178,18 @@
         font-weight: 400;
     }
 }
+
+@media only screen and (min-height: 1100px){
+    .home-box{
+        width: 100%;
+        height: calc(100vh - 250px);
+        background-size: cover;
+        background-position: right;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        transition: 3s;
+    }
+
+}
+
