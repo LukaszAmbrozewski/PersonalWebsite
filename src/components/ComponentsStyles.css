@@ -13,10 +13,6 @@
     color: #f48226;
 }
 
-.active{
-    color: #f48226;
-}
-
 .main-menu-lang-btn{
     display: flex;
     align-items: center;
@@ -32,3 +28,33 @@
     flex-direction: row;
     align-items: flex-start;
 }
+
+/*.view-box{*/
+/*    font-size: 1.6rem;*/
+/*    height: calc(100vh - 250px);*/
+/*    padding: 0 50px 0 550px;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    line-height: 1.4;*/
+/*    font-weight: 500;*/
+/*}*/
+
+.view-header{
+    font-size: 4.25rem;
+    font-weight: 550;
+    margin: 50px 0 80px;
+}
+
+/*@media only screen and (max-width: 1600px) {*/
+/*    .view-box{*/
+/*        font-size: 1.6rem;*/
+/*        height: calc(100vh - 250px);*/
+/*        padding: 0 150px 0 150px;*/
+/*        display: flex;*/
+/*        flex-direction: column;*/
+/*        align-items: center;*/
+/*        line-height: 1.4;*/
+/*        font-weight: 500;*/
+/*    }*/
+/*}*/
