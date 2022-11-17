@@ -6,30 +6,12 @@ import './HomeBox.css';
 import BackgroundsImageGallery from "../BackgroundsImageGallery/BackgroundsImageGallery";
 
 export const HomeBox = () => {
-    // const [currentBackgroundImage, setCurrentBackgroundImage] = useState<number>(0);
-    // const [backgroundImages, setBackgroundImages] = useState<string[]>(['images/home1.jpg', 'images/home2.jpg', 'images/home3.jpg', 'images/home4.jpg']);
-    const {desc} = useContext(LanguageContext);
-    //
-    // useEffect(() => {
-    //     const urls = [...backgroundImages];
-    //     urls.forEach((image) => {
-    //         const newImage = new Image();
-    //         newImage.src = image;
-    //     });
-    //     setBackgroundImages(urls);
-    // }, [])
-    //
-    // useEffect(() => {
-    //     setTimeout(() => {
-    //         (currentBackgroundImage === 3) ? setCurrentBackgroundImage(0) : setCurrentBackgroundImage(currentBackgroundImage + 1);
-    //     }, 6000)
-    // }, [currentBackgroundImage]);
+   const {desc} = useContext(LanguageContext);
 
     return (
         <>
             <div
                 className='home-box'
-                // style={{backgroundImage: `url(${backgroundImages[currentBackgroundImage]})`}}
             >
                 <BackgroundsImageGallery/>
                 <div className='home-text-box'>
