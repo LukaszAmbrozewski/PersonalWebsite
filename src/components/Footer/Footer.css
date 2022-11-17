@@ -1,5 +1,6 @@
 .footer-box{
     height: 115px;
+    z-index: 1;
 }
 
 .footer-btn-box{
