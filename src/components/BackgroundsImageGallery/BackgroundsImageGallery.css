@@ -1,6 +1,6 @@
 .swiper {
     width: 100%;
-    height: calc(100vh - 120px);
+    height: calc(100% - 120px);
     color: red;
     z-index: 0;
     position: absolute;
@@ -29,7 +29,7 @@
 .swiper-slide img {
     display: block;
     height: 100%;
-    width: 100%;
+    width: 100vw;
     object-fit: cover;
 }
 
@@ -40,46 +40,3 @@
 .swiper-button-prev, .swiper-button-next{
     color: transparent;
 }
-
-@media only screen and (max-height: 950px) and (orientation : landscape){
-    .swiper{
-        height: calc(100vh - 240px)
-    }
-}
-
-@media only screen and (max-height: 850px) and (orientation : landscape){
-    .swiper{
-        height: 550px;
-    }
-}
-
-@media only screen and (max-height: 750px) and (orientation : landscape){
-    .swiper{
-        height: 470px;
-    }
-}
-
-@media only screen and (max-height: 700px) and (orientation : landscape){
-    .swiper{
-        height: 410px;
-    }
-}
-
-@media only screen and (max-height: 650px) and (orientation : landscape){
-    .swiper{
-        height: 360px;
-    }
-}
-
-@media only screen and (max-height: 600px) and (orientation : landscape){
-    .swiper{
-        height: 350px;
-    }
-}
-
-@media only screen and (min-height: 1100px){
-    .swiper{
-        height: calc(100vh - 250px);
-    }
-}
-

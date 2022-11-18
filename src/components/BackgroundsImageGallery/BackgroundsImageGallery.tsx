@@ -5,7 +5,6 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "./BackgroundsImageGallery.css";
 
-
 import { Autoplay, Navigation } from "swiper";
 import {useMediaQuery} from "react-responsive";
 
@@ -40,7 +39,6 @@ export default function BackgroundsImageGallery() {
                 <SwiperSlide>
                     <img className='one-photo' src={smallBackground ? 'images/home4-mobile.jpg' : 'images/home4.jpg'} alt="Slide 4"/>
                 </SwiperSlide>
-
             </Swiper>
         </>
     );
