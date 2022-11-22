@@ -31,7 +31,7 @@
     margin: 50px 0 80px;
 }
 
-.main-menu-btn:hover .main-menu-lang-btn:hover .hidden-menu-lang-btn:hover {
+.main-menu-btn:hover, .main-menu-lang-btn:hover, .hidden-menu-lang-btn:hover {
     transition: 0.3s;
     color: #f48226;
 }

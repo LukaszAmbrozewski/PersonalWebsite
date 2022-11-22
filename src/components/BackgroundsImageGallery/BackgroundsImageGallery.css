@@ -1,10 +1,11 @@
 .swiper {
     width: 100%;
-    height: calc(100% - 120px);
+    height: calc(100% - 100px);
     color: red;
     z-index: 0;
     position: absolute;
-    margin-top: 120px;
+    margin-top: 100px;
+    filter: drop-shadow(0px 0px 4px #445964);
 }
 
 .swiper-slide {
@@ -41,9 +42,8 @@
     color: transparent;
 }
 
-
-@media only screen and (max-height: 650px) {
+@media only screen and (max-height: 550px) {
     .swiper {
-        height: calc(650px - 120px);
+        height: calc(550px - 100px);
     }
 }
