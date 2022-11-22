@@ -15,5 +15,12 @@
   "technologies-header": "Technologies",
   "portfolio-main-header": "My projects",
   "portfolio-first-project-header": "InvoiceApp",
-  "portfolio-first-project-description": "It is a full-stack application that facilitates the management of invoices. It consists of a front-end, back-end part and a database. I personally carried out the entire application development process, from designing views, all functionalities, databases to the full implementation of the project. The application was made in the mobile first approach and is fully responsive."
+  "portfolio-first-project-description": "It is a full-stack application that facilitates the management of invoices. It consists of a front-end, back-end part and a database. I personally carried out the entire application development process, from designing views, all functionalities, databases to the full implementation of the project. The application was made in the mobile first approach and is fully responsive.",
+  "about-me-header": "ABOUT ME",
+  "about-me-programming-section-header": "PROGRAMMING",
+  "about-me-private-section-header": "PRIVATELY",
+  "about-me-social-section-header": "SOCIALLY",
+  "about-me-programming-section-description": "I have been interested in writing code since elementary school. I started my serious adventure with programming in the spring of 2021. In my work, I use JavaScript ecosystem technologies: TypeScript, React.js, Node.js, NestJS, Express.js, and relational and non-relational databases: MySQL and MongoDB. I am open to interesting and challenging tasks that will improve my skills.",
+  "about-me-private-section-description": "Programming is something that gives me great satisfaction, and the specificity of a programmer's work is something that fits perfectly into my professional predispositions. My distraction from work is playing the guitar, cycling and spending time with my family.",
+  "about-me-social-section-description": "I became a frontend developer in a team creating social projects for the NeuroN Foundation. Our team consists of over fifty specialists from various IT areas. Activity in the foundation allows me to combine helping other people with the development of my passion, which is programming."
 }

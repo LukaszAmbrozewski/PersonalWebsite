@@ -15,5 +15,12 @@
   "technologies-header": "Technologien",
   "portfolio-main-header": "Meine Projekte",
   "portfolio-first-project-header": "InvoiceApp",
-  "portfolio-first-project-description": "Es ist eine Full-Stack-Anwendung, die die Verwaltung von Rechnungen erleichtert. Es besteht aus einem Frontend-, Backend-Teil und einer Datenbank. Ich habe persönlich den gesamten Prozess der Anwendungsentwicklung durchgeführt, von der Gestaltung der Ansichten, aller Funktionalitäten, Datenbanken bis zur vollständigen Implementierung des Projekts. Die Anwendung wurde im Mobile-First-Ansatz erstellt und ist vollständig responsiv."
+  "portfolio-first-project-description": "Es ist eine Full-Stack-Anwendung, die die Verwaltung von Rechnungen erleichtert. Es besteht aus einem Frontend-, Backend-Teil und einer Datenbank. Ich habe persönlich den gesamten Prozess der Anwendungsentwicklung durchgeführt, von der Gestaltung der Ansichten, aller Funktionalitäten, Datenbanken bis zur vollständigen Implementierung des Projekts. Die Anwendung wurde im Mobile-First-Ansatz erstellt und ist vollständig responsiv.",
+  "about-me-header": "ÜBER MICH",
+  "about-me-programming-section-header": "PROGRAMMIERUNG",
+  "about-me-private-section-header": "PRIVAT",
+  "about-me-social-section-header": "SOZIAL",
+  "about-me-programming-section-description": "Ich interessiere mich seit der Grundschule für das Schreiben von Code. Ich habe mein ernsthaftes Abenteuer mit dem Programmieren im Frühjahr 2021 begonnen. In meiner Arbeit verwende ich JavaScript-Ökosystemtechnologien: TypeScript, React.js, Node.js, NestJS, Express.js und relationale und nicht-relationale Datenbanken: MySQL und MongoDB. Ich bin offen für interessante und herausfordernde Aufgaben, die meine Fähigkeiten verbessern.",
+  "about-me-private-section-description": "Das Programmieren bereitet mir große Freude, und die Besonderheit der Arbeit eines Programmierers passt perfekt zu meinen beruflichen Voraussetzungen. Meine Ablenkung von der Arbeit ist Gitarre spielen, Radfahren und Zeit mit meiner Familie verbringen.",
+  "about-me-social-section-description": "Ich wurde Frontend-Entwickler in einem Team, das soziale Projekte für die NeuroN Foundation erstellte. Unser Team besteht aus über fünfzig Spezialisten aus verschiedenen IT-Bereichen. Die Tätigkeit in der Stiftung ermöglicht es mir, das Helfen anderer Menschen mit der Entwicklung meiner Leidenschaft, dem Programmieren, zu verbinden."
 }

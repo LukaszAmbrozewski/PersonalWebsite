@@ -8,8 +8,8 @@ export const AboutMeBox = () => {
   const { desc } = useContext(LanguageContext);
 
   return (
-    <>
-      <SectionHeader text="O MNIE" />
+    <div className="about-me-box">
+      <SectionHeader text={desc["about-me-header"]} />
       <img
         className="author-photo"
         src="images/myphoto.png"
@@ -17,36 +17,30 @@ export const AboutMeBox = () => {
       />
       <div className="about-me-box-sections">
         <div className="about-me-one-section">
-          <div className="one-section-header">PROGRAMOWANIE</div>
+          <div className="one-section-header">
+            {desc["about-me-programming-section-header"]}
+          </div>
           <article className="one-section-text">
-            Pisaniem kodu interesowałem się już w szkole podstawowej. Swoją
-            poważną przygodę z programowaniem rozpocząłem wiosną 2021 roku. W
-            swojej pracy wykorzystuję technologie ekosystemu JavaScript:
-            TypeScript, React.js, Node.js, NestJS, Express.js, oraz relacyjne i
-            nierelacyjne bazy danych: MySQL i MongoDB. Jestem otwarty na ciekawe
-            i wymagające zadania, które udoskonalą moje umiejętności.
+            {desc["about-me-programming-section-description"]}
           </article>
         </div>
         <div className="about-me-one-section orange-border">
-          <div className="one-section-header orange-section">PRYWATNIE</div>
+          <div className="one-section-header orange-section">
+            {desc["about-me-private-section-header"]}
+          </div>
           <article className="one-section-text">
-            Programowanie jest czymś co sprawia mi ogromną satysfakcje, a
-            specyfika pracy programisty to coś, co idealnie wpisuje się w moje
-            predyspozycje zawodowe. Oderwaniem od pracy jest dla mnie gra na
-            gitarze, wycieczki rowerowe oraz spędzanie czasu z rodziną.
+            {desc["about-me-private-section-description"]}
           </article>
         </div>
         <div className="about-me-one-section">
-          <div className="one-section-header">SPOŁECZNIE</div>
+          <div className="one-section-header">
+            {desc["about-me-social-section-header"]}
+          </div>
           <article className="one-section-text">
-            Zostałem frontend developerem w zespole tworzącym projekty społeczne
-            dla organizacji NeuroN Foundation. Nasz zespół składa się z ponad
-            pięćdziesięciu specjalistów z różnych obszarów IT. Działalność w
-            fundacji umożliwia mi łączenie pomocy innym ludziom z rozwojem
-            swojej pasji, jaką jest programowanie.
+            {desc["about-me-social-section-description"]}
           </article>
         </div>
       </div>
-    </>
+    </div>
   );
 };

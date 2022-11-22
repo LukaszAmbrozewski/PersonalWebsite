@@ -15,5 +15,12 @@
   "technologies-header": "Technologie",
   "portfolio-main-header": "Moje projekty",
   "portfolio-first-project-header": "InvoiceApp",
-  "portfolio-first-project-description": "To fullstackowa aplikacja ułatwiająca zarządzanie fakutrami. Składa się z części frontendowej backendowej oraz bazy danych. Osobiście wykonałem cały proces tworzenia aplikacji, od zaprojektowania widoków, wszystkich funkcjonalności, bazy danych aż do pełnej realizacji projektu. Aplikacja została wykonana w podejściu mobile first i jest w pełni responsywna."
+  "portfolio-first-project-description": "To fullstackowa aplikacja ułatwiająca zarządzanie fakutrami. Składa się z części frontendowej backendowej oraz bazy danych. Osobiście wykonałem cały proces tworzenia aplikacji, od zaprojektowania widoków, wszystkich funkcjonalności, bazy danych aż do pełnej realizacji projektu. Aplikacja została wykonana w podejściu mobile first i jest w pełni responsywna.",
+  "about-me-header": "O MNIE",
+  "about-me-programming-section-header": "PROGRAMOWANIE",
+  "about-me-private-section-header": "PRYWATNIE",
+  "about-me-social-section-header": "SPOŁECZNIE",
+  "about-me-programming-section-description": "Pisaniem kodu interesowałem się już w szkole podstawowej. Swoją poważną przygodę z programowaniem rozpocząłem wiosną 2021 roku. W swojej pracy wykorzystuję technologie ekosystemu JavaScript: TypeScript, React.js, Node.js, NestJS, Express.js, oraz relacyjne i nierelacyjne bazy danych: MySQL i MongoDB. Jestem otwarty na ciekawe i wymagające zadania, które udoskonalą moje umiejętności.",
+  "about-me-private-section-description": "Programowanie jest czymś co sprawia mi ogromną satysfakcje, a specyfika pracy programisty to coś, co idealnie wpisuje się w moje predyspozycje zawodowe. Oderwaniem od pracy jest dla mnie gra na gitarze, wycieczki rowerowe oraz spędzanie czasu z rodziną.",
+  "about-me-social-section-description": "Zostałem frontend developerem w zespole tworzącym projekty społeczne dla organizacji NeuroN Foundation. Nasz zespół składa się z ponad pięćdziesięciu specjalistów z różnych obszarów IT. Działalność w fundacji umożliwia mi łączenie pomocy innym ludziom z rozwojem swojej pasji, jaką jest programowanie."
 }
