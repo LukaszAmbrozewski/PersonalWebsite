@@ -1,16 +1,11 @@
 .main-menu-btn{
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     color: #445964;
     font-weight: 500;
     transition: 0.3s;
     padding: 15px 15px 15px 15px;
     cursor: pointer;
-}
-
-.main-menu-btn:hover{
-    transition: 0.3s;
-    color: #f48226;
 }
 
 .main-menu-lang-btn{
@@ -27,18 +22,8 @@
     justify-content: center;
     flex-direction: row;
     align-items: flex-start;
+    cursor: pointer;
 }
-
-/*.view-box{*/
-/*    font-size: 1.6rem;*/
-/*    height: calc(100vh - 250px);*/
-/*    padding: 0 50px 0 550px;*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*    line-height: 1.4;*/
-/*    font-weight: 500;*/
-/*}*/
 
 .view-header{
     font-size: 4.25rem;
@@ -46,15 +31,7 @@
     margin: 50px 0 80px;
 }
 
-/*@media only screen and (max-width: 1600px) {*/
-/*    .view-box{*/
-/*        font-size: 1.6rem;*/
-/*        height: calc(100vh - 250px);*/
-/*        padding: 0 150px 0 150px;*/
-/*        display: flex;*/
-/*        flex-direction: column;*/
-/*        align-items: center;*/
-/*        line-height: 1.4;*/
-/*        font-weight: 500;*/
-/*    }*/
-/*}*/
+.main-menu-btn:hover .main-menu-lang-btn:hover .hidden-menu-lang-btn:hover {
+    transition: 0.3s;
+    color: #f48226;
+}
