@@ -1,19 +1,35 @@
-import React, {useContext} from 'react';
-import './PortfolioBox.css'
-import {LanguageContext} from "../../contexts/language-context";
+import React, { useContext } from "react";
+import "./PortfolioBox.css";
+import { LanguageContext } from "../../contexts/language-context";
+import { SectionHeader } from "../../common/SectionHeader/SectionHeader";
+import { PortfolioProjectInformation } from "../../common/PortfolioProjectInformation/PortfolioProjectInformation";
+import { InvoiceApp } from "../PortfolioProjectsDetails/InvoiceApp/InvoiceApp";
 
 export const PortfolioBox = () => {
-    const {desc} = useContext(LanguageContext);
+  const { desc } = useContext(LanguageContext);
 
-    return(
-        <div className="portfolio-box">
-            <h1 className='portfolio-h1'>{desc["portfolio-main-header"]}</h1>
-            <h1 className='portfolio-h1 portfolio-h2'>{desc["portfolio-first-project-header"]}</h1>
-            <p className='portfolio-project-description'>{desc["portfolio-first-project-description"]}</p>
-            <p>
-                <img className='portfolio-phone-app-image' src="images/invoice-app/menu.png" alt="screen menu z aplikacji invoiceapp"/>
-                <img className='portfolio-phone-app-image' src="images/invoice-app/clients.png" alt="screen listy klientów z aplikacji invoiceapp"/>
-            </p>
-        </div>
-    )
-}
+  return (
+    <div className="portfolio-box">
+      <SectionHeader marginTop="150px" text="PORTFOLIO" />
+
+      <PortfolioProjectInformation
+        alt="portfolio image 1"
+        description="To fullstackowa aplikacja ułatwiająca zarządzanie fakturami. Składa się z części frontendowej, backendowej oraz bazy danych. Osobiście wykonałem cały proces tworzenia aplikacji: od zaprojektowania widoków, wszystkich funkcjonalności, bazy danych, aż do pełnej realizacji projektu. Aplikacja została wykonana w podejściu mobile first i jest w pełni responsywna."
+        image="/images/portfolio-image-1.jpg"
+        title="InvoiceApp"
+        showDetails={() => {}}
+        side="left"
+        detailsComponent={<InvoiceApp />}
+      />
+      <PortfolioProjectInformation
+        alt="portfolio image 1"
+        description="To fullstackowa aplikacja ułatwiająca zarządzanie fakturami. Składa się z części frontendowej, backendowej oraz bazy danych. Osobiście wykonałem cały proces tworzenia aplikacji: od zaprojektowania widoków, wszystkich funkcjonalności, bazy danych, aż do pełnej realizacji projektu. Aplikacja została wykonana w podejściu mobile first i jest w pełni responsywna."
+        image="/images/portfolio-image-1.jpg"
+        title="InvoiceApp"
+        showDetails={() => {}}
+        side="right"
+        detailsComponent={<InvoiceApp />}
+      />
+    </div>
+  );
+};

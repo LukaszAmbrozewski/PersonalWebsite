@@ -1,71 +1,28 @@
 .portfolio-box{
-    min-height: calc(100vh - 300px);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
-.portfolio-phone-app-image{
-    margin: 20px 20px 20px 20px;
+.portfolio-one-project-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1500px;
+    margin: 20px 0;
 }
 
-.portfolio-h1{
-    font-size: 4.0rem;
-    font-weight: 600;
-    margin: 50px 0 80px;
-    width: calc(100vw - 20px);
-}
-
-.portfolio-h2{
-    font-size: 3.7rem;
-    font-weight: 550;
-    margin: 20px 0 40px;
-}
-
-.portfolio-project-description{
-    font-size: 1.6rem;
-    line-height: 1.4;
-    font-weight: 500;
-    margin-bottom: 30px;
-    padding: 0 100px 0 100px;
-}
-
-@media only screen and (max-width: 1000px) {
-    .portfolio-project-description{
-        padding: 0 30px 0 30px;
+@media only screen and (max-width:1500px) {
+    .portfolio-one-project-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 1500px;
     }
-
-    .portfolio-header{
-        margin: 20px 0 20px;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    .portfolio-h1{
-        font-size: 3.0rem;
-        font-weight: 600;
-        margin: 30px;
-        width: calc(100vw - 20px);
-    }
-
-    .portfolio-h2{
-        font-size: 2.8rem;
-        font-weight: 550;
-        margin: 30px 0 40px;
-    }
-
-    .portfolio-project-description{
-        font-size: 1.4rem;
-    }
-
-    .portfolio-project-description{
-        padding: 0 10px 0 10px;
-    }
-
-    .portfolio-phone-app-image{
-        width: calc(100vw - 30px);
-        margin: 20px 10px 20px 10px;
-    }
-
 }

@@ -1,0 +1,28 @@
+.project-information-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.more-details-box{
+    height: 300px;
+    margin: 0 20px 0 20px;
+    width: 1460px;
+    filter: drop-shadow(0px 0px 4px #445964);
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width:1500px) {
+    .more-details-box{
+        width: 750px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .more-details-box{
+        margin: 0 10px 0 10px;
+        width: calc(100% - 20px);
+    }
+}

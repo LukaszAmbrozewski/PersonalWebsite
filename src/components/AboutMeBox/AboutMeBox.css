@@ -10,8 +10,9 @@
     margin: 50px 0 50px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
+    max-width: 1500px;
     font-size: 1.5rem;
     font-weight: 570;
 }
@@ -64,12 +65,11 @@
 
 @media only screen and (max-width:1900px) {
     .about-me-one-section{
-        margin: 0 7px 0 7px;
-        width: calc((100vw/3) - 42px);
+        width: 500px;
     }
 }
 
-@media only screen and (max-width:1400px) {
+@media only screen and (max-width:1500px) {
     .about-me-box-sections{
         flex-direction: column;
         align-items: center;

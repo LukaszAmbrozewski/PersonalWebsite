@@ -19,9 +19,9 @@ export const Home = () => {
       <section id="about-me">
         <AboutMeBox />
       </section>
-      {/*<section id="portfolio">*/}
-      {/*  <PortfolioBox />*/}
-      {/*</section>*/}
+      <section id="portfolio">
+        <PortfolioBox />
+      </section>
       {/*<section id="technologies">*/}
       {/*  <TechnologiesBox />*/}
       {/*</section>*/}

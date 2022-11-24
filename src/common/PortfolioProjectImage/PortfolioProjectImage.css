@@ -1,0 +1,26 @@
+.portfolio-image-box{
+    height: auto;
+    width: 750px;
+    border-radius: 15px;
+    margin: 0 20px 0 20px;
+}
+
+.portfolio-image{
+    height: auto;
+    width: calc(100% - 20px);
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+}
+
+@media only screen and (max-width:1500px) {
+    .portfolio-image-box{
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .portfolio-image-box{
+        margin: 0 10px 0 10px;
+        width: calc(100% - 20px);
+    }
+}
