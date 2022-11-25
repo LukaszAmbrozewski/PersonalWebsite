@@ -1,82 +1,79 @@
-import React from "react";
+import React, { useContext } from "react";
 import "../PortfolioProjectsStyles.css";
 import { Icon } from "@iconify/react";
 import { useMediaQuery } from "react-responsive";
+import { LanguageContext } from "../../../contexts/language-context";
 
 export const InvoiceApp = () => {
   const isSmallScreen = useMediaQuery({ maxWidth: 1500 });
+  const { desc } = useContext(LanguageContext);
 
   return (
     <div className="my-project-box">
       <div className="my-project-top-box">
         <div className="my-project-description-box">
-          <h1>O projekcie</h1>
+          <h1>{desc["portfolio-details-header"]}</h1>
           <p className="my-project-details-description">
-            InvoiceApp to fullstackowa aplikacja ułatwiająca zarządzanie
-            fakutrami. Składa się z części frontendowej backendowej oraz bazy
-            danych. Osobiście wykonałem cały proces tworzenia aplikacji, od
-            zaprojektowania widoków, wszystkich funkcjonalności, bazy danych aż
-            do pełnej realizacji projektu. Aplikacja została wykonana w
-            podejściu mobile first i jest w pełni repsonsywna.
+            {desc["portfolio-invoice-app-detail-description"]}
           </p>
           {isSmallScreen ? (
             <div className="my-project-logo-box">
               <img
                 className="my-project-logo-icon"
                 src="images/invoice-app/menu.png"
-                alt="screen invoiceapp aplication"
+                alt={desc["portfolio-invoice-app-screen-alt"]}
               />
             </div>
           ) : null}
           <h2 className="my-project-header-repository-link">
-            Funkcje aplikacji:
+            {desc["portfolio-invoice-app-functions-list-header"]}
             <p className="my-project-details-description my-project-function-list">
               <p>
                 <Icon
                   className="my-project-function-list-icon"
                   icon="mdi:like"
                 />
-                Tworzenie własnej bazy klientów,
+                {desc["portfolio-invoice-app-first-function"]}
               </p>
               <p>
                 <Icon
                   className="my-project-function-list-icon"
                   icon="mdi:like"
                 />
-                Proste dodawanie nowych faktur,
+                {desc["portfolio-invoice-app-second-function"]}
               </p>
               <p>
                 <Icon
                   className="my-project-function-list-icon"
                   icon="mdi:like"
                 />
-                Możliwość dodawania i edycji klientów,
+                {desc["portfolio-invoice-app-third-function"]}
               </p>
               <p>
                 <Icon
                   className="my-project-function-list-icon"
                   icon="mdi:like"
                 />
-                Łatwy dostęp do wszystkich fakutr,
+                {desc["portfolio-invoice-app-fourth-function"]}
               </p>
               <p>
                 <Icon
                   className="my-project-function-list-icon"
                   icon="mdi:like"
                 />
-                Śledzenie historii aktywności użytkownika,
+                {desc["portfolio-invoice-app-fifth-function"]}
               </p>
               <p>
                 <Icon
                   className="my-project-function-list-icon"
                   icon="mdi:like"
                 />
-                Analiza statystyk każdego miesiąca,
+                {desc["portfolio-invoice-app-sixth-function"]}
               </p>
             </p>
           </h2>
           <h2 className="my-project-header-repository-link">
-            Kod źródłowy - backend
+            {desc["portfolio-details-code-source-backend"]}
           </h2>
           <div
             className="my-project-go-to-github-button"
@@ -91,7 +88,7 @@ export const InvoiceApp = () => {
             <Icon icon="octicon:logo-github-16" />
           </div>
           <h2 className="my-project-header-repository-link">
-            Kod źródłowy - frontend
+            {desc["portfolio-details-code-source-frontend"]}
           </h2>
           <div
             className="my-project-go-to-github-button"
@@ -111,14 +108,14 @@ export const InvoiceApp = () => {
             <img
               className="my-project-logo-icon"
               src="images/invoice-app/menu.png"
-              alt="screen invoiceapp aplication"
+              alt={desc["portfolio-invoice-app-screen-alt"]}
             />
           </div>
         )}
       </div>
       <div className="my-project-bottom-box">
         <h2 className="my-project-header-technology-stack">
-          Wykorzystane technologie i narzędzia
+          {desc["portfolio-details-technologies-header"]}
         </h2>
         <div className="my-project-technologies">
           <Icon

@@ -1,28 +1,23 @@
-import React from "react";
+import React, { useContext } from "react";
 import "../PortfolioProjectsStyles.css";
 import { Icon } from "@iconify/react";
 import { useMediaQuery } from "react-responsive";
+import { LanguageContext } from "../../../contexts/language-context";
 
 export const PersonalWebsite = () => {
   const isSmallScreen = useMediaQuery({ maxWidth: 1500 });
+  const { desc } = useContext(LanguageContext);
 
   return (
     <div className="my-project-box">
       <div className="my-project-top-box">
         <div className="my-project-description-box">
-          <h1>O projekcie</h1>
+          <h1>{desc["portfolio-details-header"]}</h1>
           <p className="my-project-details-description">
-            Strona lukaszambrozewski.com to strona prezentująca najważniejsze
-            informacje o mojej osobie. Została zaprojektowana z wykorzystaniem
-            programów Figma oraz Gimp. Strona wizytówka to idealne rozwiązanie
-            dla osób, które chcą zaznaczyć swoją obecność w internecie.
-            Responsywność strony sprawia, że użytkownik zobaczy ją w pełnej
-            formie na każdym urządzeniu z dostępem do internetu. Dobrze
-            stworzona strona internetowa to klucz do osiągnięcia sukcesu w
-            internecie.
+            {desc["portfolio-personal-website-detail-description"]}
           </p>
           <h2 className="my-project-header-repository-link">
-            Kod źródłowy - frontend
+            {desc["portfolio-details-code-source-frontend"]}
           </h2>
           <div
             className="my-project-go-to-github-button"
@@ -48,7 +43,7 @@ export const PersonalWebsite = () => {
       </div>
       <div className="my-project-bottom-box">
         <h2 className="my-project-header-technology-stack">
-          Wykorzystane technologie i narzędzia
+          {desc["portfolio-details-technologies-header"]}
         </h2>
         <div className="my-project-technologies">
           <Icon

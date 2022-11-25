@@ -11,22 +11,22 @@ export const PortfolioBox = () => {
 
   return (
     <div className="portfolio-box">
-      <SectionHeader text="PORTFOLIO" />
+      <SectionHeader text={desc["portfolio-section-main-header"]} />
 
       <PortfolioProjectInformation
-        alt="portfolio image 1"
-        description="To fullstackowa aplikacja ułatwiająca zarządzanie fakturami. Składa się z części frontendowej, backendowej oraz bazy danych. Osobiście wykonałem cały proces tworzenia aplikacji: od zaprojektowania widoków, wszystkich funkcjonalności, bazy danych, aż do pełnej realizacji projektu. Aplikacja została wykonana w podejściu mobile first i jest w pełni responsywna."
+        alt={desc["portfolio-invoice-app-image-alt"]}
+        description={desc["portfolio-invoice-app-description"]}
         image="/images/portfolio-image-1.jpg"
-        title="InvoiceApp"
+        title={desc["portfolio-invoice-app-title"]}
         showDetails={() => {}}
         side="left"
         detailsComponent={<InvoiceApp />}
       />
       <PortfolioProjectInformation
-        alt="portfolio image 1"
-        description="To strona internetowa, na której przedstawiam swoją osobę. Zawiera wszelkie niezbędne informacje dotyczące technologii w jakich pracuję. Na stronie znajdują się również dane kontaktowe oraz portfolio, przedstawiające projekty nad którymi pracowałem."
+        alt={desc["portfolio-personal-website-image-alt"]}
+        description={desc["portfolio-personal-website-description"]}
         image="/images/portfolio-image-1.jpg"
-        title="Strona osobista"
+        title={desc["portfolio-personal-website-title"]}
         showDetails={() => {}}
         side="right"
         detailsComponent={<PersonalWebsite />}
