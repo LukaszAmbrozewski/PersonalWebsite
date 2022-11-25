@@ -1,8 +1,7 @@
-import React, { Component, useState } from "react";
-import "../../components/PortfolioBox/PortfolioBox.css";
+import React, { useState } from "react";
 import "./PortfolioProjectInformation.css";
-import { PortfolioProjectImage } from "../../common/PortfolioProjectImage/PortfolioProjectImage";
-import { PortfolioProjectDescription } from "../../common/PortfolioProjectDescription/PortfolioProjectDescription";
+import { PortfolioProjectImage } from "../PortfolioProjectImage/PortfolioProjectImage";
+import { PortfolioProjectDescription } from "../PortfolioProjectDescription/PortfolioProjectDescription";
 import { useMediaQuery } from "react-responsive";
 
 interface Props {
@@ -18,7 +17,8 @@ interface Props {
 export const PortfolioProjectInformation = (props: Props) => {
   const [showDetails, setShowDetails] = useState<boolean>(false);
   const isSmallScreen = useMediaQuery({ maxWidth: 1500 });
-  const about = props.detailsComponent;
+
+  const showButtonText = showDetails ? "Ukryj szczegóły" : "Więcej o projekcie";
 
   const showAllDetails = () => {
     showDetails ? setShowDetails(false) : setShowDetails(true);
@@ -34,6 +34,7 @@ export const PortfolioProjectInformation = (props: Props) => {
               description={props.description}
               title={props.title}
               showDetails={showAllDetails}
+              showButtonText={showButtonText}
             />
           </div>
           {showDetails ? (
@@ -49,6 +50,7 @@ export const PortfolioProjectInformation = (props: Props) => {
                   description={props.description}
                   title={props.title}
                   showDetails={showAllDetails}
+                  showButtonText={showButtonText}
                 />
                 <PortfolioProjectImage image={props.image} alt={props.alt} />
               </>
@@ -59,6 +61,7 @@ export const PortfolioProjectInformation = (props: Props) => {
                   description={props.description}
                   title={props.title}
                   showDetails={showAllDetails}
+                  showButtonText={showButtonText}
                 />
               </>
             )}

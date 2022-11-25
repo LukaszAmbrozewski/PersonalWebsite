@@ -49,6 +49,12 @@
     transition: 1s;
 }
 
+@media only screen and (max-width:1500px) {
+    .portfolio-one-section-more-button {
+        margin: 0 0 20px 480px;
+    }
+}
+
 @media only screen and (max-width:800px) {
     .portfolio-project-description{
         margin: 0 10px 0 10px;

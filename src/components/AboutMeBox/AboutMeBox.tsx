@@ -9,7 +9,7 @@ export const AboutMeBox = () => {
 
   return (
     <div className="about-me-box">
-      <SectionHeader text={desc["about-me-header"]} marginTop="150px" />
+      <SectionHeader text={desc["about-me-header"]} />
       <img
         className="author-photo"
         src="images/myphoto.png"
