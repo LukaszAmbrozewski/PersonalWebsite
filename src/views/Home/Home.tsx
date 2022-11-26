@@ -22,9 +22,9 @@ export const Home = () => {
       <section id="portfolio">
         <PortfolioBox />
       </section>
-      {/*<section id="technologies">*/}
-      {/*  <TechnologiesBox />*/}
-      {/*</section>*/}
+      <section id="technologies">
+        <TechnologiesBox />
+      </section>
       {/*<section id="cooperation">*/}
       {/*  <CooperationBox />*/}
       {/*</section>*/}
