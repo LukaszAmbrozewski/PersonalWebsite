@@ -1,0 +1,26 @@
+.cooperation-icon{
+    width: 70px;
+    height: 70px;
+}
+
+.cooperation-text{
+    font-size: 1.4rem;
+    margin: 15px 7px 70px 7px;
+    line-height: 1.5;
+}
+
+.cooperation-box{
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width:750px) {
+    .cooperation-text{
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width:300px) {
+    .cooperation-text{
+        font-size: 1.0rem;
+    }
+}

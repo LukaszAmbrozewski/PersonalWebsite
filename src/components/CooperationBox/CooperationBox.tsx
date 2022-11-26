@@ -1,15 +1,29 @@
-import React from 'react';
-import '../ComponentsStyles.css';
-import {MainBtn} from "../../common/MainBtn/MainBtn";
+import React, { useContext } from "react";
+import "../ComponentsStyles.css";
+import { SectionHeader } from "../../common/SectionHeader/SectionHeader";
+import { LanguageContext } from "../../contexts/language-context";
+import { Icon } from "@iconify/react";
+import "./CooperationBox.css";
 
 export const CooperationBox = () => {
-    return(
-        <>
-            <div className='view-box'>
-                <h1 className='view-header'>Współpraca</h1>
-                <p>Potrzebujesz nowoczesnej strony lub aplikacji dla swojej firmy? Zapraszam do podjęcia współpracy. Potrzebujesz nowoczesnej strony lub aplikacji dla swojej firmy? Zapraszam do podjęcia współpracy. Potrzebujesz nowoczesnej strony lub aplikacji dla swojej firmy? Zapraszam do podjęcia współpracy. Potrzebujesz nowoczesnej strony lub aplikacji dla swojej firmy? Zapraszam do podjęcia współpracy. Potrzebujesz nowoczesnej strony lub aplikacji dla swojej firmy? Zapraszam do podjęcia współpracy. Potrzebujesz nowoczesnej strony lub aplikacji dla swojej firmy? Zapraszam do podjęcia współpracy. Potrzebujesz nowoczesnej strony lub aplikacji dla swojej firmy? Zapraszam do podjęcia współpracy. Potrzebujesz nowoczesnej strony lub aplikacji dla swojej firmy? Zapraszam do podjęcia współpracy. Potrzebujesz nowoczesnej strony lub aplikacji dla swojej firmy? Zapraszam do podjęcia współpracy.</p>
-                <MainBtn text='Kontakt' to='/contact'/>
-            </div>
-        </>
-    )
-}
+  const { desc } = useContext(LanguageContext);
+
+  return (
+    <>
+      <div className="cooperation-box">
+        <SectionHeader text={desc["cooperation-header"]} />
+        <div>
+          <Icon
+            className="cooperation-icon"
+            icon="fluent:people-team-32-filled"
+          />
+        </div>
+        <p className="cooperation-text">{desc["cooperation-first-text"]}</p>
+        <div>
+          <Icon className="cooperation-icon" icon="mdi:web" />
+        </div>
+        <p className="cooperation-text">{desc["cooperation-second-text"]}</p>
+      </div>
+    </>
+  );
+};
