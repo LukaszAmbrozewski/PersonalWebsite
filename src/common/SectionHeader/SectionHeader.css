@@ -34,7 +34,6 @@
     .section-header{
         font-size: 1.6rem;
         height: 30px;
-        border-bottom: 3px solid #F48226;
         padding: 0 10px 0 10px;
     }
 }
@@ -43,10 +42,7 @@
     .section-header{
         font-size: 1.4rem;
         height: 25px;
-        border-bottom: 3px solid #F48226;
         padding: 0 0 0 0;
         margin: 120px 0 20px;
     }
 }
-
-

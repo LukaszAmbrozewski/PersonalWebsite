@@ -44,7 +44,6 @@
 
 @media only screen and (max-height: 700px){
     .home-box-small-text{
-        font-size: 2.2rem;
         margin-left: 4vw;
     }
 
@@ -62,7 +61,6 @@
 
 @media only screen and (max-width: 1250px){
     .home-box-small-text{
-        font-size: 2.2rem;
         margin-left: 4vw;
     }
 

@@ -196,7 +196,6 @@
     }
 }
 
-
 @media only screen and (max-width: 500px){
     .my-project-technologies-icon{
         margin: 0 5px 0 5px;
@@ -239,7 +238,6 @@
     }
 }
 
-
 @media only screen and (max-width: 350px){
     .my-project-header-repository-link{
         font-size: 1.25rem;
@@ -258,6 +256,3 @@
         font-size: 1.9rem;
     }
 }
-/*@@TODO Trzeba zrobić responsywność poniżej 600px i następnie wziąć się za widok rozwinięcia aplikacji personalwebsite*/
-/*@@TODO Wszystko do sprawdzenia responsywanie w pionie i poziomie, trzeba zrobić ładne comity*/
-/*@@TODO W sekcji o mnie przy najmniejszej szerokości ekranu trzeba koniecznie zmniejszyć czcionki*/

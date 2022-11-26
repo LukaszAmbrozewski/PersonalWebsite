@@ -25,12 +25,12 @@ export const Home = () => {
       <section id="technologies">
         <TechnologiesBox />
       </section>
-      {/*<section id="cooperation">*/}
-      {/*  <CooperationBox />*/}
-      {/*</section>*/}
-      {/*<section id="contact">*/}
-      {/*  <ContactBox />*/}
-      {/*</section>*/}
+      <section id="cooperation">
+        <CooperationBox />
+      </section>
+      <section id="contact">
+        <ContactBox />
+      </section>
     </>
   );
 };

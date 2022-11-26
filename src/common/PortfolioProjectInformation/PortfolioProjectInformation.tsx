@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import "./PortfolioProjectInformation.css";
 import { PortfolioProjectImage } from "../PortfolioProjectImage/PortfolioProjectImage";
 import { PortfolioProjectDescription } from "../PortfolioProjectDescription/PortfolioProjectDescription";
 import { useMediaQuery } from "react-responsive";
+import { LanguageContext } from "../../contexts/language-context";
 
 interface Props {
   image: string;
@@ -17,8 +18,11 @@ interface Props {
 export const PortfolioProjectInformation = (props: Props) => {
   const [showDetails, setShowDetails] = useState<boolean>(false);
   const isSmallScreen = useMediaQuery({ maxWidth: 1500 });
+  const { desc } = useContext(LanguageContext);
 
-  const showButtonText = showDetails ? "Ukryj szczegóły" : "Więcej o projekcie";
+  const showButtonText = showDetails
+    ? desc["portfolio-section-hide-button-text"]
+    : desc["portfolio-section-show-button-text"];
 
   const showAllDetails = () => {
     showDetails ? setShowDetails(false) : setShowDetails(true);

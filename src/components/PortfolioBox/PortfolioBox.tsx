@@ -12,7 +12,6 @@ export const PortfolioBox = () => {
   return (
     <div className="portfolio-box">
       <SectionHeader text={desc["portfolio-section-main-header"]} />
-
       <PortfolioProjectInformation
         alt={desc["portfolio-invoice-app-image-alt"]}
         description={desc["portfolio-invoice-app-description"]}
