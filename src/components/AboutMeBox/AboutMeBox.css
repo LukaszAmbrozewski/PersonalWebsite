@@ -13,7 +13,7 @@
     justify-content: space-between;
     width: 100%;
     max-width: 1500px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 570;
 }
 
@@ -46,8 +46,8 @@
     margin: 25px 20px 25px 20px;
     font-weight: 400;
     width: calc(100% - 40px);
-    line-height: 1.4;
-    font-size: 1.3rem;
+    line-height: 1.5;
+    font-size: 1.1rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,18 +105,17 @@
     }
 
     .one-section-text{
-        font-size: 1.2rem;
+        font-size: 1.0rem;
     }
+
+    .about-me-box-sections{
+        font-size: 1.1rem;
+    }
+
 
     .author-photo{
         height: 200px;
         border-radius: 200px;
         filter: drop-shadow(0px 0px 3px #445964);
-    }
-}
-
-@media only screen and (max-width:350px) {
-    .about-me-box-sections{
-        font-size: 1.2rem;
     }
 }

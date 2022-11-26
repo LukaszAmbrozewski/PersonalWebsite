@@ -24,7 +24,8 @@
 
 .portfolio-one-section-description {
     padding: 0 50px 0 50px;
-    line-height: 1.3;
+    line-height: 1.5;
+    font-size: 1.2rem;
     text-align: left;
 }
 
@@ -40,7 +41,7 @@
     border-radius: 30px;
     color: #ffffff;
     font-weight: 600;
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     transition: 1s;
 }
 
@@ -115,5 +116,10 @@
 
     .portfolio-one-section-description {
         padding: 0 20px 20px 20px;
+    }
+
+    .portfolio-one-section-description {
+        font-size: 1.0rem;
+        text-align: left;
     }
 }
