@@ -1,6 +1,6 @@
 .logo-box{
     height: 100%;
-    width: 500px;
+    width: 400px;
     font-size: 40px;
     font-weight: bold;
     color: #445964;
@@ -8,13 +8,20 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-left: 80px;
+    margin-left: 50px;
+    z-index: 4;
 }
 
 .logo-icon{
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
     color: #F48226;
+    z-index: 4;
+}
+
+.header-title{
+    font-size: 2rem;
+    z-index: 4;
 }
 
 @media only screen and (max-width: 750px) {
@@ -25,52 +32,72 @@
 
 @media only screen and (max-width: 650px) {
     .logo-box{
-        height: 100%;
-        width: 400px;
-        font-size: 33px;
         margin-left: 10px;
+        width: 360px;
     }
 
-    .logo-icon{
-        height: 80px;
-        width: 80px;
+    .header-title{
+        font-size: 1.8rem;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .logo-box{
-        height: 100%;
         width: 350px;
-        font-size: 28px;
-        margin-left: 10px;
     }
-
 }
 
 @media only screen and (max-width: 450px) {
     .logo-box{
-        height: 100%;
-        width: 280px;
-        font-size: 28px;
-        margin-left: 10px;
+        width: 310px;
     }
 
-    .logo-icon{
-        height: 80px;
-        width: 80px;
+    .header-title{
+        font-size: 1.55rem;
     }
+}
+
+@media only screen and (max-width: 400px) {
+    .logo-box{
+        width: 230px;
+    }
+
+    .header-title{
+        width: 150px;
+    }
+
 }
 
 @media only screen and (max-width: 350px) {
     .logo-box{
-        height: 100%;
-        width: 200px;
-        font-size: 22px;
-        margin-left: 5px;
+        width: 210px;
+    }
+
+    .header-title{
+        font-size: 1.4rem;
+        width: 150px;
     }
 
     .logo-icon{
-        height: 65px;
-        width: 65px;
+        height: 60px;
+        width: 60px;
     }
 }
+
+@media only screen and (max-width: 300px) {
+    .logo-box{
+        width: 190px;
+    }
+
+    .header-title{
+        font-size: 1.3rem;
+        width: 140px;
+    }
+
+    .logo-icon{
+        height: 50px;
+        width: 50px;
+    }
+}
+
+

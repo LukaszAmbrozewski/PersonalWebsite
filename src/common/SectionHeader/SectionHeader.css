@@ -1,0 +1,48 @@
+.section-header-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-header{
+    font-size: 3.1rem;
+    border-bottom: 4px solid #F48226;
+    margin: 150px 0 50px;
+    padding: 0 20px 0 20px;
+    height: 65px;
+    text-align: center;
+    font-weight: 450;
+}
+
+@media only screen and (max-width:700px) {
+    .section-header{
+        font-size: 2.5rem;
+        height: 50px;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .section-header{
+        font-size: 1.8rem;
+        height: 35px;
+        border-bottom: 3px solid #F48226;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .section-header{
+        font-size: 1.6rem;
+        height: 30px;
+        padding: 0 10px 0 10px;
+    }
+}
+
+@media only screen and (max-width:330px) {
+    .section-header{
+        font-size: 1.4rem;
+        height: 25px;
+        padding: 0 0 0 0;
+        margin: 120px 0 20px;
+    }
+}

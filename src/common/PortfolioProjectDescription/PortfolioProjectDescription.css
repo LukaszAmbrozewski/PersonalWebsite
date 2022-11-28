@@ -1,0 +1,125 @@
+.portfolio-project-description {
+    height: 450px;
+    width: 750px;
+    background-color: #445964;
+    border-radius: 15px;
+    margin: 0 20px 0 20px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.portfolio-one-section-header{
+    height: 60px;
+    border-bottom: 3px solid #F48226;
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 30px 0 0 50px;
+}
+
+.portfolio-one-section-description {
+    padding: 0 50px 0 50px;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.portfolio-one-section-more-button {
+    border: 0;
+    margin: 0 0 20px 450px;
+    height: 50px;
+    background-color: #F48226;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px 5px 20px;
+    border-radius: 30px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.2rem;
+    transition: 1s;
+}
+
+.portfolio-one-section-more-button:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+@media only screen and (max-width:1500px) {
+    .portfolio-one-section-more-button {
+        margin: 0 0 20px 480px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .portfolio-project-description{
+        margin: 0 10px 0 10px;
+        width: calc(100% - 20px);
+        height: auto;
+    }
+
+    .portfolio-one-section-header{
+        margin: 30px 0 20px 50px;
+    }
+
+    .portfolio-one-section-description {
+        padding: 0 50px 20px 50px;
+    }
+
+    .portfolio-one-section-more-button {
+        margin: 0 0 20px calc(75vw - 120px);
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .portfolio-project-description {
+        font-size: 1.2rem;
+    }
+
+    .portfolio-one-section-header{
+        margin: 30px 0 20px 20px;
+        font-size: 2.4rem;
+        height: 50px;
+    }
+
+    .portfolio-one-section-more-button {
+        height: 40px;
+        font-size: 1.1rem;
+        margin: 0 0 20px calc(75vw - 130px);
+    }
+
+    .portfolio-one-section-description {
+        padding: 0 20px 20px 20px;
+    }
+}
+
+@media only screen and (max-width:350px) {
+    .portfolio-project-description {
+        font-size: 1.0rem;
+    }
+
+    .portfolio-one-section-header{
+        font-size: 1.8rem;
+        height: 40px;
+    }
+
+    .portfolio-one-section-more-button {
+        height: 30px;
+        font-size: 0.9rem;
+        margin: 0 0 20px calc(75vw - 130px);
+    }
+
+    .portfolio-one-section-description {
+        padding: 0 20px 20px 20px;
+    }
+
+    .portfolio-one-section-description {
+        font-size: 1.0rem;
+        text-align: left;
+    }
+}

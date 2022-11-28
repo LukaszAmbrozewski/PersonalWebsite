@@ -1,47 +1,76 @@
 .more-about-me-btn{
-    margin-top: 50px;
-    width: 300px;
-    height: 65px;
+    width: 280px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    transition: 0.3s;
+    z-index: 1;
+    flex-direction: column;
+    margin-bottom: 10px;
+    transform: translateZ(0);
+    animation-name: move-down-button-start-animation;
+    animation-duration: 4000ms;
+}
+
+.move-down-button{
+    height: 50px;
+    width: 50px;
+    border-radius: 60px;
+    border: 5px solid #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
-    background-color: #445964;
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 1.6rem;
-    font-weight: 500;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
-.more-about-me-btn:hover{
-    transition: 0.3s;
-    transform: scale(1.1);
+.move-down-button:hover{
+    transition: 0.4s;
+    transform: scale(1.15);
+    color: #F48226;
+    border: 5px solid #F48226;
 }
 
-@media only screen and (max-width: 500px) {
+@keyframes move-down-button-animation {
+    0% {margin-top: -10px}
+    30% {margin-top: 25px}
+    70% {margin-top: 25px}
+    100% {margin-top: -10px}
+}
+
+@keyframes move-down-button-start-animation {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.move-down-button-icon{
+    transform: scale(2.7) translateZ(0);
+    animation-name: move-down-button-animation;
+    animation-duration: 1700ms;
+    animation-iteration-count: 1000;
+    animation-timing-function: linear;
+}
+
+@media only screen and (max-width: 350px) {
     .more-about-me-btn{
-        margin-top: 5px;
-        transform: scale(0.8);
-        margin-left: -30px;
+        width: 240px;
+        font-size: 1.0rem;
     }
-}
 
-@media only screen and (max-width: 300px) {
-    .more-about-me-btn{
-        transform: scale(0.7);
-        margin-left: -45px;
+    .move-down-button{
+        height: 40px;
+        width: 40px;
+        border-radius: 60px;
     }
-}
 
-@media only screen and (max-height: 900px) and (orientation : landscape){
-    .more-about-me-btn{
-        margin-top: 10px;
-    }
-}
-
-@media only screen and (max-height: 700px) and (orientation : landscape){
-    .more-about-me-btn{
-        margin-top: 10px;
+    @keyframes move-down-button-animation {
+        0% {margin-top: -10px}
+        30% {margin-top: 15px}
+        70% {margin-top: 15px}
+        100% {margin-top: -10px}
     }
 }
