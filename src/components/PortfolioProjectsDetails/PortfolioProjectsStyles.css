@@ -208,11 +208,6 @@
         font-size: 2.3rem;
     }
 
-    .my-project-details-description{
-        font-size: 1.1rem;
-        max-width: 820px;
-    }
-
     .my-project-header-repository-link{
         font-size: 1.35rem;
     }
@@ -254,5 +249,10 @@
 
     .my-project-box{
         font-size: 1.9rem;
+    }
+
+    .my-project-details-description{
+        font-size: 1.0rem;
+        max-width: 820px;
     }
 }

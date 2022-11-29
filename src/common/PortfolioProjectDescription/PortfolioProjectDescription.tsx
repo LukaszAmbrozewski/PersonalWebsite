@@ -1,5 +1,6 @@
 import React from "react";
 import "./PortfolioProjectDescription.css";
+import "../../components/ComponentsStyles.css";
 
 interface Props {
   title: string;

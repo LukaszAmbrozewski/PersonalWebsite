@@ -15,7 +15,7 @@ export const PortfolioBox = () => {
       <PortfolioProjectInformation
         alt={desc["portfolio-invoice-app-image-alt"]}
         description={desc["portfolio-invoice-app-description"]}
-        image="/images/portfolio-image-1.jpg"
+        image="/images/invoiceapp.png"
         title={desc["portfolio-invoice-app-title"]}
         showDetails={() => {}}
         side="left"
@@ -24,7 +24,7 @@ export const PortfolioBox = () => {
       <PortfolioProjectInformation
         alt={desc["portfolio-personal-website-image-alt"]}
         description={desc["portfolio-personal-website-description"]}
-        image="/images/portfolio-image-1.jpg"
+        image="/images/personalwebsite.png"
         title={desc["portfolio-personal-website-title"]}
         showDetails={() => {}}
         side="right"

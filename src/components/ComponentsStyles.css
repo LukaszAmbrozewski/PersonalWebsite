@@ -35,3 +35,19 @@
     transition: 0.3s;
     color: #f48226;
 }
+
+.main-hover-effect{
+    transition: 700ms;
+}
+
+.main-hover-effect:hover{
+    transition: 700ms;
+    transform: scale(1.05);
+}
+
+@media only screen and (max-width:1500px) {
+    .main-menu-btn{
+        font-size: 1.1rem;
+        padding: 15px 10px 15px 10px;
+    }
+}

@@ -48,6 +48,7 @@ export const HeaderWithHiddenMenu = () => {
             </button>
           </div>
           <div className="small-menu-box">
+            <div className="small-menu-separator" />
             <HashLink
               onClick={() => changeMenuVisibility()}
               className="small-menu-btn"

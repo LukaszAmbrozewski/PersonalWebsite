@@ -7,7 +7,7 @@ export const DatabaseSection = () => {
   const { desc } = useContext(LanguageContext);
 
   return (
-    <div className="technologies-section">
+    <div className="technologies-section main-hover-effect">
       <h2 className="technologies-section-header-box">
         {desc["technologies-header-database-section"]}
       </h2>
