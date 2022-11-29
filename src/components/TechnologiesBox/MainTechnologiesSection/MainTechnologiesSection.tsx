@@ -5,14 +5,14 @@ import "../../TechnologiesBox/TechnologiesBox.css";
 export const MainTechnologiesSection = () => {
   return (
     <div className="technologies-main-section">
-      <p className="technologies-text">
+      <p className="technologies-text main-hover-effect">
         <Icon
           className="main-technologies-icon"
           icon="akar-icons:javascript-fill"
         />
         JavaScript
       </p>
-      <p className="technologies-text">
+      <p className="technologies-text main-hover-effect">
         <Icon
           className="main-technologies-icon"
           icon="akar-icons:typescript-fill"

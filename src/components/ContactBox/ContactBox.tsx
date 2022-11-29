@@ -11,7 +11,7 @@ export const ContactBox = () => {
       <div className="contact-box">
         <div className="contact-one-section">
           <h2 className="contact-section-header">{desc["contact-header"]}</h2>
-          <a className="contact-data" href="tel:+48987654321">
+          <a className="contact-data" href="tel:+48733894571">
             <Icon icon="akar-icons:phone" className="contact-icon" />
             <p>{desc["contact-phone-number"]}</p>
           </a>

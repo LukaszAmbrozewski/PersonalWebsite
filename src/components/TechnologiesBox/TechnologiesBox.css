@@ -29,7 +29,8 @@
 
 .technologies-section-header-box{
     height: 55px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 15px 15px 0 0;
+    margin: -2px -2px -2px -2px;
     background-color: #F48226;
     display: flex;
     justify-content: center;

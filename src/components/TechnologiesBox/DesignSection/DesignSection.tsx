@@ -7,7 +7,7 @@ export const DesignSection = () => {
   const { desc } = useContext(LanguageContext);
 
   return (
-    <div className="technologies-section technologies-section-gray-border">
+    <div className="technologies-section technologies-section-gray-border main-hover-effect">
       <h2 className="technologies-section-header-box technologies-section-gray-background">
         {desc["technologies-header-design-section"]}
       </h2>

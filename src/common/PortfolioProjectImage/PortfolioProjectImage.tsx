@@ -8,7 +8,7 @@ interface Props {
 
 export const PortfolioProjectImage = (props: Props) => {
   return (
-    <div className="portfolio-image-box">
+    <div className="portfolio-image-box main-hover-effect">
       <img src={props.image} alt={props.alt} className="portfolio-image" />
     </div>
   );

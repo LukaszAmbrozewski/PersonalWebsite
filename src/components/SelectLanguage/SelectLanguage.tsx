@@ -9,7 +9,7 @@ import { useMediaQuery } from "react-responsive";
 export const SelectLanguage = () => {
   const { activeLanguage, setActiveLanguage } = useContext(LanguageContext);
   const [showLanguagesList, setShowLanguagesList] = useState<boolean>(false);
-  const isSmallScreen = useMediaQuery({ maxWidth: 1500 });
+  const isSmallScreen = useMediaQuery({ maxWidth: 1300 });
 
   const changeLanguage = (language: string) => {
     setActiveLanguage(language);

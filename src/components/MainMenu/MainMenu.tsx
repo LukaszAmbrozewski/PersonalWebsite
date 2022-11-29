@@ -10,7 +10,7 @@ export const MainMenu = () => {
 
   return (
     <nav className="main-menu-box">
-      <HashLink className="main-menu-btn" smooth to="/#header">
+      <HashLink className="main-menu-btn" smooth to="/#home">
         {desc["main-home-btn"]}
       </HashLink>
       <HashLink className="main-menu-btn" smooth to="/#about-me">

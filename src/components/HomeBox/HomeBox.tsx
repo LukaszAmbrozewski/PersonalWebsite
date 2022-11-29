@@ -23,6 +23,7 @@ export const HomeBox = () => {
         </div>
         <MoreAboutMeBtn />
       </div>
+      <div className="home-box-background" />
     </>
   );
 };

@@ -24,6 +24,10 @@
     z-index: 4;
 }
 
+.small-menu-separator{
+    height: 40px;
+}
+
 .small-menu-btn {
     text-decoration: none;
     height: 50px;
@@ -72,5 +76,11 @@
 @media only screen and (max-height: 850px) and (max-width: 1500px){
     .small-menu-box {
         padding-top: 0;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .small-menu-separator{
+        height: 20px;
     }
 }

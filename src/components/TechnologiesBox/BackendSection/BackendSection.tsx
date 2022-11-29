@@ -4,7 +4,7 @@ import "../../TechnologiesBox/TechnologiesBox.css";
 
 export const BackendSection = () => {
   return (
-    <div className="technologies-section technologies-section-gray-border">
+    <div className="technologies-section technologies-section-gray-border main-hover-effect">
       <h2 className="technologies-section-header-box technologies-section-gray-background">
         BACKEND
       </h2>
