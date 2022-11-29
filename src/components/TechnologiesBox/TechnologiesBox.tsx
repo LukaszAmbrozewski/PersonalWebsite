@@ -22,8 +22,8 @@ export const TechnologiesBox = () => {
           <>
             <FrontendSection />
             <BackendSection />
-            <DesignSection />
             <DatabaseSection />
+            <DesignSection />
           </>
         ) : (
           <>
