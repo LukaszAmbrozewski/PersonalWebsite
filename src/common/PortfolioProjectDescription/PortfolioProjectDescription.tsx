@@ -13,7 +13,9 @@ export const PortfolioProjectDescription = (props: Props) => {
   return (
     <div className="portfolio-project-description">
       <h1 className="portfolio-one-section-header">{props.title}</h1>
-      <p className="portfolio-one-section-description">{props.description}</p>
+      <article className="portfolio-one-section-description">
+        {props.description}
+      </article>
       <button
         className="portfolio-one-section-more-button"
         onClick={props.showDetails}

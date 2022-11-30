@@ -17,25 +17,25 @@ export const AboutMeBox = () => {
       />
       <div className="about-me-box-sections">
         <div className="about-me-one-section main-hover-effect">
-          <div className="one-section-header">
+          <h2 className="one-section-header">
             {desc["about-me-programming-section-header"]}
-          </div>
+          </h2>
           <article className="one-section-text">
             {desc["about-me-programming-section-description"]}
           </article>
         </div>
         <div className="about-me-one-section orange-border main-hover-effect">
-          <div className="one-section-header orange-section">
+          <h2 className="one-section-header orange-section">
             {desc["about-me-private-section-header"]}
-          </div>
+          </h2>
           <article className="one-section-text">
             {desc["about-me-private-section-description"]}
           </article>
         </div>
         <div className="about-me-one-section main-hover-effect">
-          <div className="one-section-header">
+          <h2 className="one-section-header">
             {desc["about-me-social-section-header"]}
-          </div>
+          </h2>
           <article className="one-section-text">
             {desc["about-me-social-section-description"]}
           </article>
