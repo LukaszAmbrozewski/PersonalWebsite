@@ -15,7 +15,7 @@ This is a website where I introduce myself. It contains all the necessary inform
 ### Live: https://lukaszambrozewski.pl/ 
 </br>
 
-<a href="https://www.lukaszambrozewski.pl/" target="blank">
+<a href="https://lukaszambrozewski.pl/" target="blank">
 <img src="./public/images/screen-personalwebsite.png" alt="screen personal website" width="800" /> &nbsp;&nbsp;&nbsp;&nbsp; 
 </a>
 
