@@ -48,5 +48,12 @@
   "portfolio-invoice-app-sixth-function": "Monthly statistics analysis,",
   "cooperation-header": "COOPERATION",
   "cooperation-first-text": "Need a developer for your team?",
-  "cooperation-second-text": "Need a professional website for your business?"
+  "cooperation-second-text": "Need a professional website for your business?",
+  "portfolio-landing-page-image-alt": "Obraz przedstawiający responsywność landing page",
+  "portfolio-landing-page-title": "Landing page",
+  "portfolio-landing-page-description": "This is a simple landing page created from a ready-made graphic design. A free template downloaded from Figmaland.com was used as the graphic design. The completed website is fully responsive which allows the content to be displayed properly on a computer, laptop, tablet and smartphone.",
+  "portfolio-landing-page-detail-description": "This project shows what a professional company website can look like. It was mapped in the pixel perfect approach, which means that all dimensions of the site are fully compatible with the graphic design. Responsiveness allows the site to be used comfortably on any device. A website that is fully functional on mobile devices is key to growing any business. Nowadays, people are increasingly using mobile devices to search for information. ",
+  "portfolio-landing-page-screen-alt": "Image showing the mobile view of the landing page",
+  "portfolio-details-website-address": "Website Address",
+  "portfolio-details-design-address": "Template library address"
 }

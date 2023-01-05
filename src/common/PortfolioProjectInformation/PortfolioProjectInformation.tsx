@@ -71,7 +71,9 @@ export const PortfolioProjectInformation = (props: Props) => {
             )}
           </div>
           {showDetails ? (
-            <div className="more-details-box">{props.detailsComponent}</div>
+            <article className="more-details-box">
+              {props.detailsComponent}
+            </article>
           ) : null}
         </div>
       )}
