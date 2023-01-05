@@ -48,5 +48,12 @@
   "portfolio-invoice-app-sixth-function": "Sprawdzenie statystyk każdego miesiąca,",
   "cooperation-header": "WSPÓŁPRACA",
   "cooperation-first-text": "Potrzebujesz programisty do swojego zespołu?",
-  "cooperation-second-text": "Potrzebujesz profesjonalnej strony internetowej dla Twojej działalności?"
+  "cooperation-second-text": "Potrzebujesz profesjonalnej strony internetowej dla Twojej działalności?",
+  "portfolio-landing-page-image-alt": "Obraz przedstawiający responsywność landing page",
+  "portfolio-landing-page-title": "Landing page",
+  "portfolio-landing-page-description": "To prosty landing page stworzony na podstawie gotowego projektu graficznego. Jako projekt graficzny został wykorzystany darmowy szablon pobrany z serwisu Figmaland.com. Wykonana strona jest w pełni responsywna, co pozwala na prawidłowe wyświetlanie treści na komputerze, laptopie, tablecie oraz smartfonie.",
+  "portfolio-landing-page-detail-description": "Projekt ten pokazuje jak może wyglądać profesjonalna strona internetowa firmy. Została ona odwzorowana w podejściu pixel perfect, co oznacza, że wszystkie wymiary strony są w pełni zgodne z projektem graficznym. Responsywność pozwala na komfortowe użytkowanie strony na każdym urządzeniu. Strona internetowa, która jest w pełni funkcjonalna na urządzeniach mobilnych to klucz dla rozwoju każdego biznesu. W obecnym czasie ludzie coraz chętniej wykorzystują urządzenia mobilne do wyszukiwania informacji. ",
+  "portfolio-landing-page-screen-alt": "Obraz przedstawiający widok mobilny landing page",
+  "portfolio-details-website-address": "Adres strony internetowej",
+  "portfolio-details-design-address": "Adres biblioteki szablonów"
 }

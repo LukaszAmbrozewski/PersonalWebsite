@@ -50,6 +50,7 @@
     max-width: 820px;
 }
 
+
 .my-project-go-to-github-button{
     width: 190px;
     display: flex;
@@ -57,6 +58,7 @@
     align-items: center;
     margin: 30px 45px 80px;
     transition: 500ms;
+    cursor: pointer;
 }
 
 .my-project-go-to-github-button:hover{
@@ -64,6 +66,23 @@
     transition: 500ms;
     transform: scale(1.1);
 }
+
+.my-project-website-address{
+    margin: 30px 0 80px;
+    font-size: 1.2rem;
+    transition: 200ms;
+    cursor: pointer;
+    max-width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.my-project-website-address:hover{
+    color: #F48226;
+    transition: 200ms;
+}
+
 
 .my-project-technologies{
     height: 60px;
