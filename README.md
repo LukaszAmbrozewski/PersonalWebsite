@@ -12,7 +12,6 @@ This is a website where I introduce myself. It contains all the necessary inform
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> &nbsp;&nbsp;&nbsp;&nbsp; 
 </p>
 
-### Live: https://lukaszambrozewski.pl/ 
 </br>
 
 <a href="https://lukaszambrozewski.pl/" target="blank">
